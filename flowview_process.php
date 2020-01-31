@@ -120,7 +120,7 @@ $cacti_stats = sprintf(
 	'newrecs:%s ' .
 	'schedules:%s',
 	round($end-$start,2),
-	sizeof($total),
+	$total,
 	sizeof($listeners),
 	$records,
 	sizeof($schedules)
